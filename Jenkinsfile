@@ -5,8 +5,8 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/D-Shravani/ui-automation-framework.git'
-            }
+                  git branch: 'main', url: 'https://github.com/D-Shravani/ui-automation-framework.git'
+           }
         }
 
         stage('Install Dependencies') {

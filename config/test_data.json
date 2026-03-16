@@ -1,0 +1,12 @@
+{
+ "admin_user":{
+  "email":"admin@test.com",
+  "password":"admin123"
+ },
+
+ "invalid_logins":[
+  {"email":"wrong@test.com","password":"123"},
+  {"email":"invalidemail","password":"test"},
+  {"email":"","password":""}
+ ]
+}
